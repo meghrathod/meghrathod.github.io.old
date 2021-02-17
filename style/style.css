@@ -1,0 +1,168 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color: #40514E;
+}
+.top-container {
+    background-color: #e4f9f5;
+    padding-top: 6rem;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+h1 {
+    margin-top: 300% auto 0 auto;
+    font-family: "Sacramento", cursive;
+    font-size: 562.5%;
+    color: #66bfbf;
+    line-height: 1;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 250%;
+    color: #66bfbf;
+    word-wrap: normal;
+    width: 70%;
+    margin: 0 auto 10%;
+}
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #11999e;
+}
+
+
+.top-container>h2{
+    font-weight: normal;
+    line-height: 1;
+    margin-top: 0%;
+
+}
+.skill-row{
+    max-width: 50%;
+    margin: 6rem auto;
+    line-height:2;
+    text-align: left;
+    
+}
+
+.profile{
+    margin: 6rem auto;
+}
+
+.profile>img{
+    max-width:8rem;
+}
+
+.web {
+    max-width: 25%;
+    float: left;
+    max-height: 100%;
+    margin-right: 2rem;
+}
+
+.c {
+    max-width: 25%;
+    float: right;
+    max-height: 100%;
+    margin-left: 2rem;
+}
+
+.python {
+    max-width: 25%;
+    float: left;
+    max-height: 100%;
+    margin-right: 2rem;
+}
+
+.top-cloud {
+    position: absolute;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    max-width: 15%
+}
+.bottom-cloud {
+    position: absolute;
+    margin-right: 20%;
+    margin-top: 2%;
+    max-width: 20%;
+}
+
+.mountain{
+    width: 50%;
+}
+@media only screen and (max-width: 768px) {
+    .mountain{
+    width: 100%;
+    }
+    .bottom-cloud{
+        margin-left: 5%;
+        width: 20%;  
+    }
+    .top-cloud{
+        width:20%;
+    }
+
+}
+
+
+.contact-button {
+    margin: 3rem auto;
+   background: #66bfbf;
+   border-radius: 1rem;
+   color: #FFFFFF;
+   font-size: 22px;
+   font-weight: 100;
+   padding: 1rem 1.5rem;
+   border: none;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact-button:hover {
+   background: #11999e;
+   text-decoration: none;
+}
+
+hr{
+    
+    width: 8%;
+    border: none;
+    border-top:dotted;
+    border-color: #eaf6f6;
+    border-width: 7px;
+    margin-bottom: 6rem;
+
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 3rem;
+}
+
+.bottom-container>a{
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: white;
+    border: solid;
+    border-color: white;
+    padding: 0.5rem;
+}
+
+.bottom-container>a:hover{
+    background-color:white;
+    color: #66bfbf;
+}
+
+.bottom-container>p{
+    margin:3rem auto 0 auto;
+    color: white;
+    opacity: 50%;
+}
+
+.contact-me{
+    margin: 0 auto;
+    width: 50%;
+}
