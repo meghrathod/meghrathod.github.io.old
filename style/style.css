@@ -145,9 +145,11 @@ hr{
     margin: 0 0.5rem;
     text-decoration: none;
     color: white;
+    line-height: 3;
     border: solid;
     border-color: white;
     padding: 0.5rem;
+    width: 100%;
 }
 
 .bottom-container>a:hover{
